@@ -11,7 +11,7 @@ html {
 
 body {
     font-size: 16px;
-    background: url(../images/bg.jpg) no-repeat center center fixed;
+    background: url(../assets/images/bg.jpg) no-repeat center center fixed;
     color: gray;
     text-align: center;
     height: 100%;
@@ -99,7 +99,7 @@ footer:hover {
 }
 
 .footer-text {
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .footer-text a {
