@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway|Montserrat');
 
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 
@@ -47,6 +47,10 @@ body {
     height: 200px;
     border-radius: 100px;
     transition: all 0.3s ease-in-out;
+}
+
+.name-tag {
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 500px) {
@@ -99,7 +103,7 @@ footer:hover {
 }
 
 .footer-text {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .footer-text a {
@@ -120,11 +124,11 @@ h1 {
 }
 
 @media screen and (max-width: 500px) {
-    
+
     h1 {
         font-size: 28px;
     }
-    
+
     #block-container {
         width: 80%;
     }
